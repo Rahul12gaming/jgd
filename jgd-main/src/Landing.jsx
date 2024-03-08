@@ -1,32 +1,30 @@
 import React from "react";
-import Header from "./components/navbar/header";
-import Section1 from "./section/hero/Section1";
-import Category from "./section/landing-cards/Category";
-import Story from "./section/our-story/Story";
-import Story2 from "./section/our-story/Story2";
-import Footer from "./section/footer/Footer";
+import ScrollToTopButton from "./components/ScrollTop";
+import Blog from "./section/Blog/Blog";
+import BeDealer from "./section/Dealer/BeDealer";
 import PopularProducts from "./section/Popular/PopularProducts";
 import RecommendeProducts from "./section/Popular/RecommendeProducts";
-import Blog from "./section/Blog/Blog";
 import Testimonials from "./section/Testimonials/Testimonials";
-import BeDealer from "./section/Dealer/BeDealer";
+import Hero2 from "./section/hero/hero2";
+import Category from "./section/landing-cards/Category";
+import Story from "./section/our-story/Story";
+import AgricultureIndustrySection from "./section/our-story/Story2";
 
 function Landing() {
   return (
-   <div>
-   <Header/>
-   <Section1/>
-   <Story/>
-   <Category/>
-   <PopularProducts/>
-   <RecommendeProducts/>
-   <Story2/>
-   <Blog/>
-   <Testimonials/>
-   <BeDealer/>
-   <Footer/>
-   </div> 
-  )
+    <div>
+      <Hero2 />
+      <Story />
+      <Category />
+      <PopularProducts />
+      <RecommendeProducts />
+      <AgricultureIndustrySection />
+      <Blog />
+      <Testimonials />
+      <BeDealer />
+      <ScrollToTopButton />
+    </div>
+  );
 }
 
-export default Landing
+export default Landing;

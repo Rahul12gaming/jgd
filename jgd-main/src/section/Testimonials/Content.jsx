@@ -19,9 +19,7 @@ const Content = () => {
           <blockquote>
             <div className="flex mx-36 sm:mx-5 text-wrap justify-center text-base ">
               <p class="text-l font-medium text-gray-900 md:text-2xl dark:text-white">
-                "Landwind is just awesome. It contains tons of predesigned
-                components and pages starting from login screen to complex
-                dashboard. Perfect choice for your next SaaS application."
+                "Jai Gurudev Industries has truly revolutionized the way I approach farming. Their tech-driven solutions, including a user-friendly mobile app for real-time insights, have become indispensable in my daily operations. 
               </p>
             </div>
           </blockquote>

@@ -4,9 +4,9 @@ import Card2 from "./Card2";
 const Category = () => {
   return (
     <section className=" bg-blue-100 dark:bg-gray-900">
-      <div className=" max-w-7xl mx-auto py-20 flex flex-col items-center justify-center">
+      <div className=" max-w-7xl mx-auto py-10 flex flex-col items-center justify-center">
         <div className="mb-2 text-center">
-          <h1 className="max-w-2xl text-3xl text-gray-800 font-extrabold tracking-tight leading-none md:text-3xl xl:text-4xl dark:text-white">
+          <h1 className="max-w-2xl mb-2 text-3xl text-gray-800 font-bold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white">
             Explore by Category
           </h1>
         </div>
